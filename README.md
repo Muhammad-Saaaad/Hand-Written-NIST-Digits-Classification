@@ -15,40 +15,75 @@ A deep learning project focused on classifying hand-written digits using the **N
 ## 🏗️ Project Structure
 
 ├── AI/
+
 │   ├── finetunnig.ipynb
+
 │   └── Model_data.ipynb
+
 ├── api/
+
 │   ├── pycache/
+
 │   ├── init.py
+
 │   ├── urls.py
+
 │   └── views.py
+
 ├── core/
+
 │   ├── pycache/
+
 │   ├── init.py
+
 │   ├── asgi.py
+
 │   ├── settings.py
+
 │   ├── urls.py
+
 │   └── wsgi.py
+
 ├── media/
+
 │   └── images/
+
 │       ├── hsf_2_00040_2Dkloxl.png
+
 │       ├── hsf_2_00040.png
+
 │       └── hsf_8_00001.png
+
 ├── myapp/
+
 │   ├── pycache/
+
 │   ├── migrations/
+
 │   ├── init.py
+
 │   ├── admin.py
+
 │   ├── apps.py
+
 │   ├── Classifier.py
+
 │   ├── db_handlers.py
+
 │   ├── models.py
+
 │   ├── serializer.py
+
 │   ├── tests.py
+
 │   └── views.py
+
 ├── env/
+
 ├── manage.py
+
 ├── Test Images/
+
 └── requirements.txt
 
 ### Explanation of Key Directories and Files:
