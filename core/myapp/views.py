@@ -12,7 +12,7 @@ console_logger = logging.getLogger("console_logger")
 
 class PredictImage(APIView):
     
-    def post(self, request):
+    def post(self, request): # python310 manage.py runserver 8001
         data = request.data
         if "image" not in data or "image" not in request.FILES:
             db_logger.error("Image was not given in the API")
