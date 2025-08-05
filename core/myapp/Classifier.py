@@ -17,6 +17,8 @@ class Classification:
         file_bytes = np.asarray(bytearray(img.read()), dtype=np.uint8)
         img = cv2.imdecode(file_bytes, cv2.IMREAD_GRAYSCALE)
 
+        img = cv2.bitwise_not(np.array(img))
+
         img = cv2.resize(img, (128,128))
         img = img.astype(np.float32)/255.0
         img = np.expand_dims(img, axis=-1)
