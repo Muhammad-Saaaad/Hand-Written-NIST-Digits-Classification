@@ -54,6 +54,8 @@ A deep learning project focused on classifying hand-written digits using the **N
 
 │       └── hsf_8_00001.png
 
+│       .....
+
 ├── myapp/
 
 │   ├── pycache/
@@ -80,17 +82,24 @@ A deep learning project focused on classifying hand-written digits using the **N
 
 ├── env/
 
+├── frontend/
+
+│   ├── digit_drawer.py
+
 ├── manage.py
 
 ├── Test Images/
 
 └── requirements.txt
 
+└── run_digit_drawer.bat
+
 ### Explanation of Key Directories and Files:
 
 * **AI/**: Contains Jupyter notebooks (`.ipynb`) likely used for model fine-tuning, training, and data preparation.
 * **api/**: This directory probably handles API endpoints for the web application, exposing functionalities like prediction.
 * **core/**: Contains the core Django project settings, URL configurations, and ASGI/WSGI settings.
+* * **frontend/**: Contains the frontend where user can draw the digits and it get send to the backend via API.
 * **media/images/**: Stores example images, possibly used for testing or as part of the application's content.
 * **myapp/**: This is a Django application within the project, likely containing the main logic for digit classification, database interactions, and views.
     * `Classifier.py`: Suggests the main logic for the digit classification model integration and prediction.
